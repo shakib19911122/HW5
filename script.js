@@ -1,11 +1,13 @@
+var date = new Date();
 
-// $(".saveBtn").on("click", function () {
-//   var timeOfday = $(this).parent().attr("id");
-//   var textContent = $("input").val().trim();
+$("#currentDay").append(date);
 
-//   localStorage.setItem(timeOfday, textContent);
-//   console.log(timeOfday, textContent);
-// });
+
+
+
+
+
+
 $("#sB9").on("click", function () {
   var timeOfday = $(this).parent().attr("id");
   var textContent = $("#9").val().trim();
